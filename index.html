@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laura</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrep link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- bootstrap5 link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+     
+    <!-- box-icon-link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- googal fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:ital,wght@0,100;0,700;1,100;1,300;1,400;1,500&family=Satisfy&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+ <!-- header -->
+
+ <header id="header" class="header fixed-top d-flex aling-item-center">
+    <div class="logo">
+      <img src="https://bootstrapmade.com/assets/img/logo.png" alt="">
+    </div>
+    <div class="icon">
+      <a href=""><i class='bx bx-desktop'></i></a>
+      <a href=""><i class='bx bx-mobile-alt'></i></a>
+      <a href=""><i class='bx bx-mobile' ></i></i></a>
+    </div>
+    <div class="prev d-flex m-auto aling-item-center">
+      <a href=""><i class='bx bx-chevron-left' ></i></a>
+      <a href="" style="text-decoration: none;"><h5 style="color: white;">Laura</h5></a>
+      <a href=""><i class='bx bx-chevron-right' ></i></a>
+    </div>
+    <div class="demo d-flex aling-item-center">
+      <div class="link" style="margin-right: 20px;font-size: 25px;">
+        <a href=""><i class='bx bx-link-external' ></i></a>
+      </div>
+      <div class="link-2">
+      <a href="" style="text-decoration: none;"><span>FREE DOWNLOAD</span></a>
+    </div>
+
+    </div>
+  </header>
+
+  <section id="navbar"> 
+    <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg" id="nav-color">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class='bx bx-menu'  style="font-size: 30px; color: white;"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" style="color: #ffb727;">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">RESUME</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#services">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           DROP DOWN  
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="text">
+          <div id="gototop">&uarr;</div>
+          <h1 class="text-center">Laura Thomson</h1>
+          <h2 class="text-center">I'm a Professional Photographer In New York City</h2>
+          <div class="text-i">
+          <a href="#about"><i class='bx bx-chevron-down d-flex aling-item-center  justify-content-center'></i></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- about -->
+
+
+<section id="about" style="padding: 60px 0px;"> 
+  <!-- <div class="btn btn-info" style="position: fixed;top: 700px;left: 145 0px;">hardik</div> -->
+  <div class="container">
+    <h2 class="text-center">  <span>ABOUT ME</span> <br> ABOUT ME</h2>
+    <p class="text-center"> Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="about-img">
+          <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/me.jpg" alt="" class="img-fluid" style="height: 650px; width: 450px;">
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="about-text">
+                <ul>
+                  <li><p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#ffb272" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg><strong>Name:</strong>
+                    Laura Thomso</p></li>
+                  <li><p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#ffb272" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                    <strong>Website:</strong>
+                    www.example.com</p></li>
+                  <li><p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#ffb272" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                    <strong>Phone:</strong>
+                    +123 456 7890</p></li>
+                  <li>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#ffb272" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                     <strong> City:</strong>
+                      New York, USA</p>
+                  </li>
+                </ul>
+        
+                <h3 id="a" style="margin-top: 30px;font-size: 37px;font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="green" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                </svg> 232</h3>
+                <p style="margin-left: 50px;font-family: 'Raleway', sans-serif"> <strong style="color: gray;font-family: 'Raleway', sans-serif;">Happy Clients</strong> consequuntur voluptas nostrum aliquid <br> ipsam architecto ut.</p>
+        
+        
+               <h3 style="font-size: 37px;font-weight: 700;"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#2cbdee" class="bi bi-clock" viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+              </svg> 18</h3>
+                  <p style="margin-left: 50px;font-family: 'Raleway', sans-serif"><strong style="color: gray;font-family: 'Raleway', sans-serif;">  Years of experience </strong>aut commodi quaerat <br> modi aliquam nam ducimus aut voluptate non vel</p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="about-text">
+                <ul>
+                  <li><p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#ffb272" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg><strong>
+                    Age:
+                    </strong>
+                    30</p></li>
+                  <li><p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#ffb272" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                    <strong>
+                      Degree:
+                      </strong>
+                      Master</p></li>
+                  <li><p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#ffb272" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                    <strong>Email:</strong>
+                    hardikdangar700@gmali.com</p></li>
+                  <li>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#ffb272" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                     <strong> 
+                      Freelance:
+                      </strong>
+                      Available:</p>
+                  </li>
+                </ul>
+        
+               <h3 style="margin-top: 30px;font-size: 37px;font-weight: 700;margin-left: 50px;">  521</h3>
+               <p style="margin-left: 50px;font-family: 'Raleway', sans-serif"><strong> Projects </strong>adipisci atque cum quia aspernatur totam <br> laudantium et quia dere tan</p>
+        
+               <h3 style="font-size: 37px;font-weight: 700;margin-left: 50px;"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#ffb272" class="bi bi-award" viewBox="0 0 16 16">
+                <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+              </svg>16</h3>
+               <p style="margin-left: 50px;font-family: 'Raleway', sans-serif"><strong>Awards </strong>rerum asperiores dolor alias quo reprehenderit <br> eum et nemo pad der</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="bar d-flex aling-item-center justify-content-between" style="margin-top: 0px;">
+                <h6>HTML</h6>
+                <h6>100%</h6>
+        
+                  </div>
+                  <div class="progress" style="height: 10px;border-radius: 0;">
+                    <div class="progress-bar bg-warning" style="width:100%"></div>
+                 </div>
+        
+                 <div class="bar d-flex aling-item-center justify-content-between">
+                  <h6>CSS</h6>
+                  <h6>90%</h6>
+          
+                    </div>
+                    <div class="progress"style="height:10px;border-radius: 0;">
+                      <div class="progress-bar bg-warning" style="width:90%"></div>
+                   </div>
+        
+                   <div class="bar d-flex aling-item-center justify-content-between">
+                    <h6>JAVASCRIPT</h6>
+                    <h6>75%</h6>
+            
+                      </div>
+                      <div class="progress" style="height: 10px;border-radius: 0;">
+                        <div class="progress-bar bg-warning" style="width:75%"></div>
+                     </div>
+                 </div>
+              </div>
+           </div>
+         </div>
+    
+     </div>
+   </div>
+
+</section>
+
+
+<!-- resume -->
+   
+<section id="resume" style="padding: 60px 0px;">
+  <div class="container">
+    <h2 class="text-center">  <span>MY RESUME</span> <br>  MY RESUME</h2>
+    <p class="text-center"> Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+    <div class="row" style="margin-top: 40px;">
+
+      <div class="col-md-6">
+        <div class="card" style="border:none;">
+        <h3>Sumary</h3>
+        <div class="resume-item pb-0">
+        <h4>ALICE BARKLEY</h4>
+        <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing <br> and developing user-centered digital/print marketing material from initial concept to <br> final, polished deliverable.</em></p>
+        <ul style="margin-left: 10px;">
+          <li>Portland par 127,Orlando, FL</li>
+          <li>(123) 456-7891</li>
+          <li>alice.barkley@example.com</li>
+        </ul>
+      </div>
+        <h3>Education</h3>
+        <div class="resume-item pb-0">
+        <h4>MASTER OF FINE ARTS & GRAPHIC DESIGN</h4>
+        <button style="width: 130px;border: none;font-family: 'Raleway', sans-serif;">2015 - 2016</button>
+        <p style="margin-top: 10px;"><em>Rochester Institute of Technology, Rochester, NY</em></p>
+        <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem  <br>sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+      </div>
+      <div class="resume-item pb-0">
+        <h4>BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h4>
+        <button style="width: 130px;border: none;font-family: 'Raleway', sans-serif;">2010 - 2014</button>
+        <p style="margin-top: 10px;"><em>Rochester Institute of Technology, Rochester, NY</em></p>
+        <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis <br> Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum <br> molestiae consequatur neque etlon sader mart dila</p>
+      </div>
+    </div>
+   </div>
+    <div class="col-md-6">
+      <h3>Professional Experience</h3>
+      <div class="resume-item pb-0">
+      <h4>SENIOR GRAPHIC DESIGN SPECIALIST</h4>
+      <button style="width: 130px;border: none;font-family: 'Raleway', sans-serif;">2019 - Present</button>
+      <p style="margin-top: 10px;"><em>Experion, New York, NY</em></p>
+      <ul>
+        <li>Lead in the design, development, and implementation of the graphic, layout, <br> and production communication materials</li>
+        <li>Delegate tasks to the 7 members of the design team and provide counsel on all <br> aspects of the project.</li>
+        <li>Supervise the assessment of all graphic materials in order to ensure quality and <br> accuracy of the design</li>
+        <li>Oversee the efficient use of production project budgets ranging from $2,000 - <br> $25,000</li>
+      </ul>
+      </div>
+      <div class="resume-item pb-0">
+      <h4 style="margin-top: 40px;">GRAPHIC DESIGN SPECIALIST</h4>
+      <button style="width: 130px;border: none;font-family: 'Raleway', sans-serif;">2017 - 2018</button>
+      <p style="margin-top: 10px;"><em>Stepping Stone Advertising, New York, NY</em></p>
+      <ul>
+        <li>Developed numerous marketing programs (logos, brochures,infographics, <br> presentations, and advertisements).</li>
+        <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+        <li>Recommended and consulted with clients on the most appropriate graphic <br> design</li>
+        <li>Created 4+ design presentations and proposals a month for clients and account <br> managers</li>
+      </ul>
+      </div>
+    </div>
+   </div>
+  </div>
+</section>
+
+<!-- services -->
+<section id="services" class="services" style="padding: 60px 0px;"> 
+  <div class="container" >
+    <h2 class="text-center">  <span>MY  SERVICES</span> <br>  MY SERVICES</h2>
+    <p class="text-center"> Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+
+  <center>  <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3">
+        <div class="card " style="width: 19rem;">
+          <div class="icon text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ffb727" class="bi bi-dribbble" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 0C3.584 0 0 3.584 0 8s3.584 8 8 8c4.408 0 8-3.584 8-8s-3.592-8-8-8zm5.284 3.688a6.802 6.802 0 0 1 1.545 4.251c-.226-.043-2.482-.503-4.755-.217-.052-.112-.096-.234-.148-.355-.139-.33-.295-.668-.451-.99 2.516-1.023 3.662-2.498 3.81-2.69zM8 1.18c1.735 0 3.323.65 4.53 1.718-.122.174-1.155 1.553-3.584 2.464-1.12-2.056-2.36-3.74-2.551-4A6.95 6.95 0 0 1 8 1.18zm-2.907.642A43.123 43.123 0 0 1 7.627 5.77c-3.193.85-6.013.833-6.317.833a6.865 6.865 0 0 1 3.783-4.78zM1.163 8.01V7.8c.295.01 3.61.053 7.02-.971.199.381.381.772.555 1.162l-.27.078c-3.522 1.137-5.396 4.243-5.553 4.504a6.817 6.817 0 0 1-1.752-4.564zM8 14.837a6.785 6.785 0 0 1-4.19-1.44c.12-.252 1.509-2.924 5.361-4.269.018-.009.026-.009.044-.017a28.246 28.246 0 0 1 1.457 5.18A6.722 6.722 0 0 1 8 14.837zm3.81-1.171c-.07-.417-.435-2.412-1.328-4.868 2.143-.338 4.017.217 4.251.295a6.774 6.774 0 0 1-2.924 4.573z"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center"><a href="">Lorem Ipsum</a></h5>
+            <p class="card-text  text-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card " style="width: 19rem;">
+          <div class="icon text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ffb727" class="bi bi-file-earmark-bar-graph-fill" viewBox="0 0 16 16">
+              <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm.5 10v-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center"><a href="">Lorem Ipsum</a></h5>
+            <p class="card-text  text-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card " style="width: 19rem;">
+          <div class="icon text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ffb727" class="bi bi-speedometer2" viewBox="0 0 16 16">
+              <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+              <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center"><a href="">Lorem Ipsum</a></h5>
+            <p class="card-text  text-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card " style="width: 19rem;">
+          <div class="icon text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#ffb727" class="bi bi-globe-americas" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center"><a href="">Lorem Ipsum</a></h5>
+            <p class="card-text  text-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </center>
+  </div>
+
+</section>
+
+ <!-- crosuel  -->
+<section class="rew">
+  <div class="container-fluid" style="overflow: hidden;">
+    <div class="row" style="margin-top: 80px;">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/testimonials/testimonials-1.jpg" alt="" height="100px" width="100px" class=" mx-auto d-block" style="border-radius: 50%;border: 5px solid rgba(227, 225, 225, 0.37);">
+              <h4 class="text-center"  style="color: white;font-weight: 500;">Saul Goodman</h4>
+              <p class="text-center" style="color: white;">Ceo & Founder</p>
+              <p class="text-center" style="color: white;"><strong></strong><em>proin iaculis purus consequat sem cure digni ssim doec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget <br>nibh et. Maecen aliquam, risus at semper. <strong></strong></em></p>
+            </div>
+            <div class="carousel-item">
+              <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/testimonials/testimonials-2.jpg" alt="" height="100px" width="100px" class=" mx-auto d-block"  style="border-radius: 50%;border: 5px solid rgba(227, 225, 225, 0.37);">
+              <h4 class="text-center"  style="color: white;font-weight: 500;">sara Wilsson</h4>
+              <p class="text-center" style="color: white;">Designer</p>
+              <p class="text-center" style="color: white;"><strong></strong><em>Export tempor illum tamen malis malis eram quae cillum quid cillum eran malis quorum velit fore eram velit sunt <br>aliqua noster fugiat irure amet anim culpa.<strong></strong></em></p>
+            </div>
+            <div class="carousel-item">
+              <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/testimonials/testimonials-3.jpg" alt="" height="100px" width="100px" class=" mx-auto d-block"  style="border-radius: 50%;border: 5px solid rgba(227, 225, 225, 0.37);">
+              <h4 class="text-center"  style="color: white;font-weight: 500;">Jena Karlis</h4>
+              <p class="text-center" style="color: white;">Store Owner</p>
+              <p class="text-center" style="color: white;"><strong></strong><em>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempr labore eram duis <br>noster aute amet eram fore quis sint minim.<strong></strong></em></p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- MY PORTFOLIO -->
+
+<section id="portfolio" style="padding: 60px 0px;">
+  <div class="container">
+    <h2 class="text-center">  <span>MY PORTFOLIO</span> <br>  MY PORTFOLIO</h2>
+    <p class="text-center"> Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+    <div class="b d-flex justify-content-center aling-item-center">
+    <button style="color: #ffb727; border: 2px solid #ffb727;">ALL</button>
+    <button>APP</button>
+    <button>CARD</button>
+    <button>WEB</button>
+  </div>
+  <div class="row" style="margin-top: 20px;">
+    <div class="col-md-4">
+      <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/portfolio/portfolio-1.jpg" alt="" width="450px" height="450px" class="img-fluid mx-auto d-block"><br>
+      <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/portfolio/portfolio-6.jpg" alt=""  width="450px" height="500px" class="img-fluid mx-auto d-block">
+    </div>
+    <div class="col-md-4">
+      <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/portfolio/portfolio-2.jpg" alt="" width="450px" height="300px" class="img-fluid mx-auto d-block"><br>
+      <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/portfolio/portfolio-5.jpg" alt="" width="450px" height="500px" class="img-fluid mx-auto d-block"><br>
+      <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/portfolio/portfolio-9.jpg" alt="" width="450px" height="200px" class="img-fluid mx-auto d-block">
+    </div>
+    <div class="col-md-4">
+      <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/portfolio/portfolio-3.jpg" alt="" width="450px" height="200px" class="img-fluid mx-auto d-block"><br>
+      <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/portfolio/portfolio-4.jpg" alt=""  width="450px" height="200px" class="img-fluid mx-auto d-block"><br>
+      <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/portfolio/portfolio-7.jpg" alt="" width="450px" height="200px" class="img-fluid mx-auto d-block"> <br>
+      <img src="https://bootstrapmade.com/demo/templates/Laura/assets/img/portfolio/portfolio-8.jpg" alt="" width="450px" height="200px" class="img-fluid mx-auto d-block">
+    </div>
+  </div>
+ </div>
+</section>
+
+
+<!-- PRICING -->
+
+<section id="pricing" style="padding: 60px 0px;">
+  <div class="container">
+    <h2 class="text-center">  <span>PRICING</span> <br> PRICING</h2>
+    <p class="text-center"> Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+   <center> <div class="row" style="margin-top: 30px;">
+      <div class="col-md-3">
+        <div class="card" style="width: 20rem;">
+            <div class="card-header" style="background-color: #f8f8f8;padding: 20px;border: none;">
+              <h5 class="text-center" style="color: rgb(148, 146, 146);">Free</h5>
+            </div>
+          <div class="card-body" style="padding: 30px;">
+            <h5 class="card-title text-center" style="font-size: 15px ;margin-top: 10px;color: rgb(167, 165, 165);"><sup style="font-size: 20px;color: #ffb727;"> $</sup><sub style="font-size: 40px; color: #ffb727;">0</sub> /month</h5>
+            <p class="card-text text-center" style="margin-top: 10px;">Aida dere.</p>
+            <p class="text-center">Nec feugiat nisl</p>
+            <p class="text-center">Nulla at volutpat dola</p>
+            <p class="text-center"><del style="color: rgb(196, 195, 195);">Pharetra massa</del></p>
+            <p class="text-center"><del  style="color: rgb(196, 195, 195);">Massa ultricies mi</del></p>
+          </div>
+          <div class="card-f d-flex aling-item-center justify-content-center" style="background-color: #f8f8f8;margin-top: 10px;">
+            <a href="#" class="btn btn-warning" style="padding: 7px 30px; font-weight: 400;color: white;margin-bottom: 20px;">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card" style="width: 20rem;">
+          <div class="card-header" style="background-color: #ffb727;padding: 15px;border: none;">
+            <h5 class="text-center" style="color: white">Business</h5>
+          </div>
+        <div class="card-body" style="padding: 30px;">
+          <h5 class="card-title text-center" style="font-size: 15px ;margin-top: 10px;color: rgb(167, 165, 165);"><sup style="font-size: 20px;color: #ffb727;"> $</sup><sub style="font-size: 40px; color: #ffb727;">19</sub> /month</h5>
+          <p class="card-text text-center" style="margin-top: 10px;">Aida dere.</p>
+          <p class="text-center">Nec feugiat nisl</p>
+          <p class="text-center">Nulla at volutpat dola</p>
+          <p class="text-center">Pharetra massa</p>
+          <p class="text-center"><del  style="color: rgb(196, 195, 195);">Massa ultricies mi</del></p>
+        </div>
+        <div class="card-f d-flex aling-item-center justify-content-center" style="background-color: #f8f8f8;margin-top: 10px;">
+          <a href="#" class="btn btn-warning" style="padding: 7px 30px; font-weight: 400;color: white;margin-bottom: 20px;">Buy Now</a>
+        </div>
+      </div>
+
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 20rem;">
+          <div class="card-header" style="background-color: #f8f8f8;padding: 15px;border: none;">
+            <h5 class="text-center" style="color: rgb(148, 146, 146);">Developer</h5>
+          </div>
+        <div class="card-body" style="padding: 30px;">
+          <h5 class="card-title text-center" style="font-size: 15px ;margin-top: 10px;color: rgb(167, 165, 165);"><sup style="font-size: 20px;color: #ffb727;"> $</sup><sub style="font-size: 40px; color: #ffb727;">29</sub> /month</h5>
+          <p class="card-text text-center" style="margin-top: 10px;">Aida dere.</p>
+          <p class="text-center">Nec feugiat nisl</p>
+          <p class="text-center">Nulla at volutpat dola</p>
+          <p class="text-center">Pharetra massa</p>
+          <p class="text-center">Massa ultricie</p>
+        </div>
+        <div class="card-f d-flex aling-item-center justify-content-center" style="background-color: #f8f8f8;margin-top: 10px;">
+          <a href="#" class="btn btn-warning" style="padding: 7px 30px; font-weight: 400;color: white;margin-bottom: 20px;">Buy Now</a>
+        </div>
+      </div>
+
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 20rem;">
+          <div class="card-header" style="background-color: #f8f8f8;padding: 15px;border: none;">
+            <strong class="advanced">Advanced</strong>
+            <h5 class="text-center" style="color: rgb(148, 146, 146);">Ultimate</h5>
+          </div>
+        <div class="card-body" style="padding: 30px;">
+          <h5 class="card-title text-center" style="font-size: 15px ;margin-top: 10px;color: rgb(167, 165, 165);"><sup style="font-size: 20px;color: #ffb727;"> $</sup><sub style="font-size: 40px; color: #ffb727;">49</sub> /month</h5>
+          <p class="card-text text-center" style="margin-top: 10px;">Aida dere.</p>
+          <p class="text-center">Nec feugiat nisl</p>
+          <p class="text-center">Nulla at volutpat dola</p>
+          <p class="text-center">Pharetra massa</p>
+          <p class="text-center">Massa ultricies mi</p>
+        </div>
+        <div class="card-f d-flex aling-item-center justify-content-center" style="background-color: #f8f8f8;margin-top: 10px;">
+          <a href="#" class="btn btn-warning" style="padding: 7px 30px; font-weight: 400;color: white;margin-bottom: 20px;">Buy Now</a>
+        </div>
+      </div>
+
+      </div>
+     
+    </div>
+  </center>
+  </div>
+</section>
+
+<!-- CONTACT ME -->
+
+
+
+
+<section id="footer">
+ <div class="container">
+  <div class="row" style="margin-top: 50px;">
+    <div class="col-md-12">
+      <h2 class="text-center">Laura Thomson</h2>
+      <p class="text-center"><em>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</em></p>
+      <div class="icon-la">
+        <div class="icon-lb">
+          <i class='bx bxl-twitter'></i>
+        </div>
+        <div class="icon-lb">
+        <i class='bx bxl-facebook-circle' ></i>
+        </div>
+        <div class="icon-lb">
+         <i class='bx bxl-instagram' ></i>
+        </div>
+        <div class="icon-lb">
+          <i class='bx bxl-skype'></i>
+        </div>
+        <div class="icon-lb">
+        <i class='bx bxl-linkedin' ></i>
+        </div>
+      </div>
+
+      <p class="text-center" style="margin-top: 40px;">© Copyright <strong> Laura.</strong> All Rights Reserved <br>
+     
+        <strong style="color: #ffb727;font-weight: 200;font-size: 15px;"><span style="color: white;"> Designed by</span>   BootstrapMade</strong></p>
+
+    </div>
+  </div>
+ </div>
+</section>
+
+<script>
+ 
+
+
+
+
+  let gototop=document.getElementById('gototop');
+  window.addEventListener("scroll",()=>{
+    console.log(pageYOffset);
+    if(window.pageYOffset>= 70){
+      gototop.style.display="block";
+    }
+    else{
+      gototop.style.display="none";
+    }
+    gototop.addEventListener('click',()=>{
+      scrollTo(0,0)
+    })
+  })
+</script>
+
+
+
+
+
+ 
+</body>
+</html>
